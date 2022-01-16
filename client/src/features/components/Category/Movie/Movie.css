@@ -1,0 +1,15 @@
+.custom-style-movie:hover img {
+  border: 2px solid #fff;
+}
+
+.custom-style-inf {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s ease-in, opacity 1s linear;
+}
+
+.custom-style-movie:hover .custom-style-inf,
+.custom-style-movie:focus .custom-style-inf {
+  visibility: visible;
+  opacity: 1;
+}

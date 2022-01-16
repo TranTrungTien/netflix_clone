@@ -1,0 +1,8 @@
+# GET http://localhost:3001/movies/api/top250movies?limit=30
+# Content-Type: "application/json"
+
+# GET http://localhost:3001/movies/api/top250movies?limit=30
+# Content-Type: "application/json"
+
+GET http://localhost:3001/movies/api/poster?id=tt9376612
+Content-Type: "application/json"

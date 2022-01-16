@@ -1,0 +1,21 @@
+.custom-style-previews {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s ease-in, opacity 0.3s ease-in;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.custom-style-previews-container:hover .custom-style-previews {
+  visibility: visible;
+  opacity: 1;
+}
+
+.custom-style-notification {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s ease-in, opacity 0.3s ease-in;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.custom-style-notification-container:hover .custom-style-notification {
+  visibility: visible;
+  opacity: 1;
+}
